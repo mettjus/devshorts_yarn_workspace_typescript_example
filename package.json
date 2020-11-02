@@ -7,6 +7,8 @@
   "name": "yarn_workplace",
   "version": "1.0.0",
   "scripts": {
+    "client": "yarn workspace client",
+    "cmd": "yarn workspace cmd",
     "compile": "tsc --build --force tsconfig.json",
     "clean": "rm -rf cmd/dist client/dist"
   },

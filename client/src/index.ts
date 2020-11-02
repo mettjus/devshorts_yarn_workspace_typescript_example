@@ -1,4 +1,4 @@
 
 export default function Foo() {
-  return 'hello world';
+  return 'hello world 4';
 }
